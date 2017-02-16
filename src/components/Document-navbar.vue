@@ -2,7 +2,7 @@
     <div class="column is-one-quarter">     
 <aside class="menu">
   <p class="menu-label">
-    <a>General</a>
+    <a>Menu</a>
   </p>
   <ul class="menu-list">
     <li><router-link :to="'/document'"> Overview </router-link></li>

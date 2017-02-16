@@ -112,6 +112,7 @@ Deploying Hubot onto Windows
 <p>Using custom scripts, you can quickly customize Hubot to be the most life embettering robot he or she can be. Read docs/patterns.md for some nifty tricks that may come in handy as you teach your hubot new skills.</p>
 </div>
 
+
 </template>
 
 

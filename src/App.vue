@@ -1,55 +1,28 @@
 <template>
-<div id="app">
-  <div class="box">
-  <article class="media">
-    <div class="media-left">
-      <figure class="image is-64x64">
-        <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
-      </figure>
-    </div>
-    <div class="media-content">
-      <div class="content">
-        <p>
-          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-          <br>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-        </p>
-      </div>
-      <nav class="level">
-        <div class="level-left">
-          <a class="level-item">
-            <span class="icon is-small"><i class="fa fa-reply"></i></span>
-          </a>
-          <a class="level-item">
-            <span class="icon is-small"><i class="fa fa-retweet"></i></span>
-          </a>
-          <a class="level-item">
-            <span class="icon is-small"><i class="fa fa-heart"></i></span>
-          </a>
-        </div>
-      </nav>
-    </div>
-  </article>
-</div>
-
-
-
+  <div id="app" class="container">
+  
+        <nav class="nav">
+          <div class="nav-left">
+            <a class="nav-item">
+              <img src="./assets/logo.png" alt="Robot Logo">
+            </a>
+            <span class="nav-item">JakeBot</span>
+            <div class="nav-right">
+              <span class="nav-item">A project by Justin and Dave </span>
+            </div>
+          </div>
+        </nav>
+    
+  </div>
   </div>
 </template>
-
 <script>
-export default {
-  name: 'app'
-}
-</script>
+  export default {
+    name: 'app'
+  }
 
+</script>
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {}
+
 </style>

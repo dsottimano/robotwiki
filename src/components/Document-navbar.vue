@@ -1,4 +1,5 @@
-<template>     
+<template>
+    <div class="column is-one-quarter">     
 <aside class="menu">
   <p class="menu-label">
     <a>General</a>
@@ -11,7 +12,7 @@
   </ul>
  
 </aside>
-
+</div>
 </template>
 
 

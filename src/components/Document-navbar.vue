@@ -4,9 +4,10 @@
     <a>General</a>
   </p>
   <ul class="menu-list">
-    <li><a>Windows</a></li>
-    <li><a>Mac</a></li>
-    <li><a>Commands</a></li>
+    <li><router-link :to="'/document'"> Overview </router-link></li>
+    <li><router-link :to="'/document/windows'"> Windows </router-link></li>
+    <li><router-link :to="'/document/mac'"> Mac </router-link></li>
+    <li><router-link :to="'/document/commands'"> Commands </router-link></li>
   </ul>
  
 </aside>

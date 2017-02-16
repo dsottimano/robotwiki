@@ -1,6 +1,7 @@
 <template>     
 
 <div>
+    <DocNavbar></DocNavbar>
 <h3>Getting Started With Hubot</h3>
 
 <p>You will need node.js and npm. Once those are installed, we can install the hubot generator:</p>
@@ -45,7 +46,7 @@ Hubot>
 is mostly useful for development. Make note of Hubot>; this is the name your hubot will
 respond to with commands. For example, to list available commands:</p>
 
-% bin/hubot
+<code>% bin/hubot
 hubot> hubot help
 hubot adapter - Reply with the adapter
 hubot animate me <query> - The same thing as `image me`, except adds a few parameters to try to return an animated GIF instead.
@@ -65,7 +66,7 @@ hubot time - Reply with current time
 hubot translate me <phrase> - Searches for a translation for the <phrase> and then prints that bad boy out.
 hubot translate me from <source> into <target> <phrase> - Translates <phrase> from <source> into <target>. Both <source> and <target> are optional
 hubot youtube me <query> - Searches YouTube for the query and returns the video embed link.
-ship it - Display a motivation squirrel
+ship it - Display a motivation squirrel</code>
 <p>You almost definitely will want to change your hubot's name to add character. bin/hubot takes a --name:</p>
 
 % bin/hubot --name myhubot
@@ -118,8 +119,11 @@ Deploying Hubot onto Windows
 
 <script>
 
+import DocNavbar from '../Document-navbar'
+
 export default {
-    name:'document'
+    name:'document',
+    components: { DocNavbar }
 }
 
 </script>

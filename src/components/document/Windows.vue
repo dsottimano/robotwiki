@@ -1,5 +1,6 @@
 <template>     
 <div class="content">
+  <DocNavbar></DocNavbar>
   <h1>Windows Specific Instructions</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
   <h2>Second level</h2>
@@ -71,8 +72,11 @@
 
 <script>
 
+import DocNavbar from '../Document-navbar'
+
 export default {
-    name:'windows'
+    name:'windows',
+    components: { DocNavbar }
 }
 
 </script>
